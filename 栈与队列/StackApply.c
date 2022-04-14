@@ -52,7 +52,7 @@ bool match(char *exp) {
     /*
      * 判断表达式中的括号匹配
      */
-    //创建工具栈
+    //创建工 具栈
     SqStack *sqStack = (SqStack *) malloc(sizeof(SqStack));
     initSqStack(sqStack);
     //处理表达式中的每个字符
