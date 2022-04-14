@@ -94,7 +94,7 @@ void testSqStack(){
     if (popStackLLNode(stackLNode, x))
         printf("再次获取 出栈元素:%d\n", x);
     else
-        printf("再次获取 出栈元素失败\n");
+        printf("再次获取 出栈元素失 败\n");
 
     //回收栈
     free(stackLNode);
